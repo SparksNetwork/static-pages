@@ -1,3 +1,7 @@
+---
+layout: base.html
+title: Refund Policy
+---
 # Refund Policy
 
 ## Volunteer Refunds
@@ -18,4 +22,3 @@ The Sparks Contribution is added to every payment that you make through the Spar
 
 
 ## Organizer Refunds
-

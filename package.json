@@ -1,0 +1,35 @@
+{
+  "name": "static-pages",
+  "version": "1.0.0",
+  "description": "Static Pages for Sparks.Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'fuck you tests'",
+    "start": "metalsmith"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparksnetwork/static-pages.git"
+  },
+  "author": "Sparks.Network",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sparksnetwork/static-pages/issues"
+  },
+  "homepage": "https://github.com/sparksnetwork/static-pages#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-autoprefixer": "^1.1.0",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-gzip": "^1.1.0",
+    "metalsmith-imagemin": "^1.2.0",
+    "metalsmith-include": "0.0.2",
+    "metalsmith-layouts": "^1.6.5",
+    "metalsmith-linkcheck": "^0.2.5",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-sass": "^1.3.0",
+    "metalsmith-watch": "^1.0.2"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source": "src/site",
+  "destination": "build",
+  "plugins": [
+    {"metalsmith-watch": {
+      "${source}/**/*": true,
+      "${source/../**/*}": true,
+      "livereload": true
+    }},
+    {"metalsmith-markdown": {
+      "gfm": true,
+      "tables": true,
+      "breaks": true,
+      "pedantic": false,
+      "sanitize": false,
+      "smartLists": true,
+      "smartypants": true
+    }},
+    {"metalsmith-sass": {
+      "outputStyle": "expanded",
+      "sourceMap": true
+    }},
+    {"metalsmith-autoprefixer": {}},
+    {"metalsmith-imagemin": {
+      "optimizationLevel": 3,
+      "svgoPlugins": [{ "removeViewBox": false }]
+    }},
+    {"metalsmith-include": {}},
+    {"metalsmith-layouts": {
+      "engine": "handlebars",
+      "directory": "src/layouts"
+    }},
+    {"metalsmith-linkcheck": {}},
+    {"metalsmith-gzip": {}},
+    {"metalsmith-browser-sync": {
+      "server": "build/",
+      "files": ["src/layouts/*.html"]
+    }}
+  ]
+}

@@ -1,0 +1,6 @@
+build/
+npm-debug.log
+.idea
+.vscode
+.local
+node_modules

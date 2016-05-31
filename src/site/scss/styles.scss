@@ -1,0 +1,30 @@
+@import "surface-material/surface_styles";
+
+#contents {
+  width: 100%;
+}
+
+header {
+  background-image: url("/images/sparklerHeader-2048.jpg");
+  background-position: center center;
+
+  a {
+    text-decoration: none;
+    background: none;
+  }
+}
+
+footer {
+  text-align: center;
+
+  @media screen and (max-width: $media-small) {
+    text-align: left;
+  }
+
+  div {
+    h3 {
+      color: darken(white, 10%);
+    }
+    color: darken(white, 10%);
+  }
+}

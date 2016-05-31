@@ -1,3 +1,8 @@
+---
+layout: base.html
+title: Terms of Service
+---
+
 The Sparks.Network is a web and mobile app that connects volunteers with the people who need them.
 
  Any and all visitors to our site, despite whether they are registered or not, shall be deemed as “users” of the services provided for the purpose of this TOS.  Once an individual registers for our services, through the process of creating an account, the user shall be considered a member.
