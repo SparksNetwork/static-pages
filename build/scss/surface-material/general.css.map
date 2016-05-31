@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "general.css",
+	"sources": [
+		"general.scss",
+		"_imports/_variables.scss",
+		"_imports/_colors.scss"
+	],
+	"mappings": "AAEA,AAAA,IAAI,CAAC;EACJ,UAAU,EE6CH,OAAO;EF5Cd,WAAW,ECKE,IAAI;CDJjB",
+	"names": []
+}

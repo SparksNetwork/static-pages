@@ -1,0 +1,20 @@
+a {
+  background: -webkit-linear-gradient(bottom, rgba(81, 173, 246, 0.8) 50%, rgba(255, 255, 255, 0) 50%);
+  background: linear-gradient(to top, rgba(81, 173, 246, 0.8) 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 100% 200%;
+  background-position: 0 10%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: background-position 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+          transition: background-position 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  will-change: background-position;
+}
+
+a:active {
+  color: inherit;
+}
+
+a:hover {
+  background-position: 0 100%;
+}
