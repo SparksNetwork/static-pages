@@ -1,5 +1,11 @@
 @import './colors';
 
+@import url("http://fonts.googleapis.com/css?family=Montserrat+Alternates");
+
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+
+@import url("http://fonts.googleapis.com/css?family=Amatic+SC");
+
 // Type
 $serif: 'Gentium Book Basic', serif;
 $sans: Roboto, sans-serif;
@@ -10,9 +16,9 @@ $font-huge: 40px;
 $line-height: 130%;
 
 // Colors
-$primary: $blue;
-$secondary: lighten($blue, 10%);
-$accent: $yellow;
+$primary: rgb(102, 102, 102);
+$secondary: darken($primary, 10%);
+$accent: #eb8c58;
 
 $body-background: $paper;
 
