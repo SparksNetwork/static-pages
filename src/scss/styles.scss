@@ -1,0 +1,89 @@
+@import "surface-material/surface_styles";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+main {
+  flex: auto;
+}
+
+footer * {
+  color: #DDD;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.splash {
+  background-image: url('/images/sparklerHeader-2048.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  xpadding: 1em 0.5em 0.5em 0.5em;  
+  padding: 180px 20px 20px 20px;
+
+  h1 {
+    color: white;
+    font-family: $decorative;
+    text-align: center;
+    font-size: 8em;
+    line-height: 1em;
+    text-shadow: 3px 3px 3px #333;
+    margin: 0px;
+  }
+}
+
+.teaser {
+  background-color: $accent-background;
+  padding: 20px 20px 50px;
+
+  h2 {
+    font-size: 4em;
+    font-family: $decorative;
+    text-align: center;
+    color: white;
+    margin: 0px;
+  }
+}
+
+.cta {
+  padding: 20px 0px;
+  background-color: $accent-background;
+  * {
+    color: white;
+    text-align: center;
+  }
+
+  button {
+    font-size: 1.5em;
+  }
+}
+
+#more-heart {
+  background: url("/images/heartIcon.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 6em 6em;
+  margin: -3em 0 -1.5em;
+  padding: 3em 0;
+  z-index: 100;
+  position: relative;  
+}
+
+button.google {
+  @include btn-gradient(#d34836);
+  &:hover {
+    background-color: lighten(#d34836, 5%);
+  }
+}
+
+button.facebook {
+  @include btn-gradient(#0e1f56);
+  &:hover {
+    background-color: lighten(#0e1f56, 5%);
+  }
+}

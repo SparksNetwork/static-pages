@@ -9,6 +9,7 @@
 // Type
 $serif: 'Gentium Book Basic', serif;
 $sans: Roboto, sans-serif;
+$decorative: 'Amatic SC';
 $font-small: 12px;
 $font-med: 16px;
 $font-big: 22px;
@@ -17,8 +18,9 @@ $line-height: 130%;
 
 // Colors
 $primary: rgb(102, 102, 102);
-$secondary: darken($primary, 10%);
-$accent: #eb8c58;
+$secondary: darken($primary, 20%);
+$accent: $yellow;
+$accent-background: #eb8c58;
 
 $body-background: $paper;
 
