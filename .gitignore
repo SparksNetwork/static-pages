@@ -5,4 +5,4 @@ npm-debug.log
 .links_checked.json
 node_modules
 
-build
+build/

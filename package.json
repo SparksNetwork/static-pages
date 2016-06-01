@@ -17,7 +17,7 @@
     "url": "https://github.com/sparksnetwork/static-pages/issues"
   },
   "homepage": "https://github.com/sparksnetwork/static-pages#readme",
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^6.3.6",
     "handlebars": "^4.0.5",
     "metalsmith": "^2.1.0",
