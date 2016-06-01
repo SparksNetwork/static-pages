@@ -1,5 +1,5 @@
 ---
-layout: base.html
+layout: landing.html
 title: Landing Page
 pageId: landing
 ---

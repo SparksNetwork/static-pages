@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+@mixin amatic {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+  color: white;
+}
+
+@mixin amatic-shadow {
+  text-shadow: 3px 3px 3px #333;
+}
+
+@mixin slabo {
+  font-family: 'Slabo 27px', serif;
+  font-size: 27px;
+}

@@ -1,22 +1,121 @@
-@import "surface-material/surface_styles";
-img { width: auto; }
+$enable-flex: true;
+$enable-grid-classes: true;
 
-header {
-  background-color: #6B6B6B;
-}
+@import './bootstrap/variables';
+@import './bootstrap/mixins';
+@import './bootstrap/normalize';
+@import './bootstrap/reboot';
+@import './bootstrap/utilities';
+@import './bootstrap/utilities-responsive';
+@import './bootstrap/grid';
+
+@import './variables';
+@import './type';
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  background: #333;
 }
 
 main {
-  flex: auto;
+  background-color: white;
 }
 
-footer * {
-  * {
-    color: #AAA;
+header {
+  background-color: #333;
+  min-height: 50px;
+  padding-top: 9px;
+}
+
+.hero {
+  background: url('/images/sparklerHeader-2048.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+.hero-overline {
+  min-height: 315px;
+
+  @include amatic;
+  @include amatic-shadow;
+  font-size: 4.5rem;
+  line-height: 110%;
+  padding-top: 157px;
+}
+
+.hero-underline {
+  @include amatic;
+  font-size: 2.5rem;
+  line-height: 2em;
+  background: $orange;
+}
+
+.section-title {
+  @include slabo;
+  padding: 50px 100px 0 100px;
+}
+
+.points {
+  padding: 50px 0;
+}
+
+.points > div {
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position-y: 5px; 
+  padding: 0 40px 0 60px;
+  min-height: 60px;
+}
+  
+
+footer {
+  padding: 50px 0 10px 0;
+  color: #aaa;
+
+  @include media-breakpoint-down(xs) {
+    padding-top: 20px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .contact {
+    padding: 15px 0 0 0;
+    font-size: 0.8rem;
+
+    a {
+      text-decoration: none;
+
+      * {
+        color: #aaa;
+      }
+
+      &:hover * {
+        color: #ddd;
+      }
+    }
+  }
+
+  .menu {
+    ul {
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+    }
+
+    a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 0.8rem;
+
+      &:hover {
+        color: #ddd;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 0.6rem;
   }
 }
