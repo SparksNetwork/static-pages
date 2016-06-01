@@ -1,5 +1,3 @@
-# Our Service
-
 The Sparks.Network connects volunteers with the people who need them, and gives them the tools to accomplish amazing things.
 
 ## For Volunteers

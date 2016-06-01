@@ -1,8 +1,3 @@
----
-layout: base.html
-title: TODO
----
-
 # Braintree Requirements
 
 * DBA (Doing Business As name) listed on your application; this must be the most prominent name on your site (Note: we do not require formal DBA registration)

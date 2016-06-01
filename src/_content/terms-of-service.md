@@ -1,36 +1,40 @@
----
-layout: base.html
-title: Terms of Service
----
-
 The Sparks.Network is a web and mobile app that connects volunteers with the people who need them.
 
- Any and all visitors to our site, despite whether they are registered or not, shall be deemed as “users” of the services provided for the purpose of this TOS.  Once an individual registers for our services, through the process of creating an account, the user shall be considered a member.
+Any and all visitors to our site, despite whether they are registered or not, shall be deemed as “users” of the services provided for the purpose of this TOS.  Once an individual registers for our services, through the process of creating an account, the user shall be considered a member.
 
- The following Terms of Service Agreement (the “TOS”) is a legally binding agreement that shall govern the relationship with our users and members with the Sparks.Network, located at 348 Wall St., Ventura CA 9001, and our subsidiaries and affiliates, in association with the use of the Sparks.Network website.
-​1.​ Services Provided
+The following Terms of Service Agreement (the “TOS”) is a legally binding agreement that shall govern the relationship with our users and members with the Sparks.Network, located at 348 Wall St., Ventura CA 9001, and our subsidiaries and affiliates, in association with the use of the Sparks.Network website.
+​
+# 1.​ Services Provided
+
 The user and/or member acknowledges and agrees that the services provided are the sole property of the Sparks.Network.  At its discretion, the Sparks.Network may offer additional services and/or products.  The Sparks.Network reserves the right to cancel and cease offering any of its services.  You, as the end user and/or member, acknowledge, accept, and agree that the Sparks.Network shall not be held liable for any changes to any of our services..  Furthermore, the user and/or member understands, acknowledges, and agrees that the services offered shall be provided “as is”.
-​1.1.​ Registration
+​
+## 1.1.​ Registration
+
 To register and become a member of the site, you must be 18 years of age.  You agree to furnish factual, correct, current, and complete information with regards to yourself as may be requested by the data registration process.
 
- Knowingly providing any information of a false, untrue, or inaccurate nature is grounds for the Sparks.Network to suspend or terminate your uuse of the service, and refuse any and all current or future use of the Sparks.Network.
-​1.2.​ Privacy Policy
+Knowingly providing any information of a false, untrue, or inaccurate nature is grounds for the Sparks.Network to suspend or terminate your uuse of the service, and refuse any and all current or future use of the Sparks.Network.
+​
+## 1.2.​ Privacy Policy
+
 Every member’s registration data and various other personal information are strictly protected by the Sparks.Network Privacy Policy (see the full Privacy Policy at http://info.sparks.network/privacy-policy).  As a member, you consent to the collection and use of the information provided, including the transfer of information for storage, processing, or use by the Sparks.Network.
-​1.3.​ Termination
+​
+## 1.3.​ Termination
+
 As a member of the Sparks.Network, you may cancel or terminate your account, associated email address, and access to our services by submitting a termination request to support@sparks.network.
 
- As a member, you agree that the Sparks.Network may, without prior written notice, immediately suspend, terminate, discontinue, and/or limit your account, any email associated with your account, and access to any of our services.  The cause for such termination, discontinuance, suspension, and/or limitation of access shall include, but is not limited to:
+As a member, you agree that the Sparks.Network may, without prior written notice, immediately suspend, terminate, discontinue, and/or limit your account, any email associated with your account, and access to any of our services.  The cause for such termination, discontinuance, suspension, and/or limitation of access shall include, but is not limited to:
 
- any breach or violation of or TOS or any other incorporated agreement, regulation, and/or guideline
-by way of requests from law enforcement or any other governmental agencies
-the discontinuance, alteration, and/or material modification to our services
-unexpected technical or security issues and/or problems
-any extended period of inactivity
-any engagement by you in fraudulent or illegal activities
-the nonpayment of any associated fees that may be owed by you in connection with your Sparks.Network account.
+* any breach or violation of or TOS or any other incorporated agreement, regulation, and/or guideline by way of requests from law enforcement or any other governmental agencies
+* the discontinuance, alteration, and/or material modification to our services
+* unexpected technical or security issues and/or problems
+* any extended period of inactivity
+* any engagement by you in fraudulent or illegal activities
+* the nonpayment of any associated fees that may be owed by you in connection with your Sparks.Network account.
 
- Furthermore, you agree that any and all terminations, suspensions, discontinuances, or other limitations of access shall be made at our sole discretion and that we shall not be liable to you or any other third party with regards to the termination of your account.
-​2.​ Conduct
+Furthermore, you agree that any and all terminations, suspensions, discontinuances, or other limitations of access shall be made at our sole discretion and that we shall not be liable to you or any other third party with regards to the termination of your account.
+​
+# 2.​ Conduct
+
 You agree not to make use of the Sparks.Network for purposes of:
 uploading, posting, emailing, transmitting, or otherwise making available any content that shall be deemed unlawful, harmful,a threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, libelous, or invasive of another’s privacy.
 causing harm to minors in any manner whatsoever

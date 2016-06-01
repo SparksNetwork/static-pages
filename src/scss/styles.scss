@@ -10,12 +10,25 @@ main {
   flex: auto;
 }
 
+header {
+  padding: 10px;
+}
+
 footer * {
   color: #DDD;
 }
 
 .text-center {
   text-align: center;
+}
+
+.page-header {
+  background-color: $accent-background;
+  padding: 20px 20px 20px;
+
+  * {
+    color: white;
+  }
 }
 
 .splash {
