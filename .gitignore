@@ -4,3 +4,5 @@ npm-debug.log
 .local
 .links_checked.json
 node_modules
+
+build
