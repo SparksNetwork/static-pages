@@ -1,0 +1,19 @@
+mixin footer-column(title)
+  .g--4.g-s--12.no-margin
+    h4.no-margin= title
+    ul: block
+
++footer-column('Contact')
+  li: a(href="mailto:help@sparks.network") Help
+  li: a(href="mailto:sdebaun@sparks.network") Other
+  li: a(href="/hiring/index.html") Join the Team
+
++footer-column('Policies')
+  li: a(href="/policies/privacy-policy.html") Privacy Policy
+  li: a(href="/policies/refund-policy.html") Refund Policy
+  li: a(href="/policies/terms-of-service.html") Terms of Service
+
++footer-column('Learn More')
+  li: a(href="/our-service.html") Our Service
+  li: a(href="") On Facebook
+  li: a(href="") Our Blog

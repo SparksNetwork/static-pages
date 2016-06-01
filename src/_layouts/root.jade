@@ -1,0 +1,19 @@
+html
+  head
+    title
+      block title
+        | | Sparks.Network
+    include ../_partials/head.jade
+
+  body
+    header.g--12.no-margin
+      .container.g--10.m--1.no-margin
+        a(href="/"): img(src="/images/sn-logo-32.png")
+
+    main.g--12.no-margin
+      block content
+
+    footer.g--12.no-margin
+      .g--10.m--2.container.container--wrap.no-margin-vertical
+        include ../_partials/footer.jade
+      .g--12.text-center.no-margin-vertical &copy; 2015 Sparks.Network
