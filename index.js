@@ -12,7 +12,7 @@ import smithGzip from 'metalsmith-gzip'
 
 const smith = new Metalsmith(__dirname)
 smith.source('src/site')
-// smith.use(smithWatch({'src/site/**/*': true, livereload: true}))
+// smith.use(smithWatch({'src/**/*': true, livereload: true}))
 smith.use(smithMarkdown({
   gfm: true,
   tables: true,
